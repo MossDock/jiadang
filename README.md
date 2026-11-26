@@ -5,11 +5,11 @@
 <h1 align="center">家当 · 家庭物品与账目</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v1.0-2f6f4f" alt="版本">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="许可证">
-  <img src="https://img.shields.io/badge/Android-7.0%2B-3ddc84" alt="系统要求">
-  <img src="https://img.shields.io/badge/APK-~207KB-orange" alt="安装包体积">
-  <img src="https://img.shields.io/badge/network-zero-blue" alt="零网络请求">
+  <img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v1.0-2f6f4f?style=for-the-badge" alt="版本">
+  <img src="https://img.shields.io/badge/license-MIT-2f6f4f?style=for-the-badge" alt="许可证">
+  <img src="https://img.shields.io/badge/Android-7.0%2B-3ddc84?style=for-the-badge" alt="系统要求">
+  <img src="https://img.shields.io/badge/APK-207KB-e07a3f?style=for-the-badge" alt="安装包体积">
+  <img src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E9%9B%B6%E8%AF%B7%E6%B1%82-5a7d9a?style=for-the-badge" alt="零网络请求">
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
 
 ---
 
-## 一、一眼看懂
+## 👀 一眼看懂
 
 <p align="center">
   <img src="screenshots/02-overview.png" alt="五个页签总览">
@@ -50,7 +50,7 @@
 
 ---
 
-## 二、它能做什么
+## ✨ 它能做什么
 
 ### 5 个页签
 
@@ -99,7 +99,7 @@
 
 ---
 
-## 三、现代手机适配
+## 📱 现代手机适配
 
 状态栏、居中挖孔 / 刘海、底部手势小白条都做了避让：
 
@@ -117,7 +117,7 @@ CSS 变量 --sa-top / --sa-bottom / --sa-left / --sa-right
 
 ---
 
-## 四、安装方式
+## 📲 安装方式
 
 | # | 方式 | 怎么用 |
 |---|---|---|
@@ -142,7 +142,7 @@ https://af2571c507cfa1204.app.workbuddy.host/Jiadang-v1.0.apk?sharecode=S3K5X2JB
 
 ---
 
-## 五、技术实现
+## 🛠️ 技术实现
 
 | 层 | 做法 |
 |---|---|
@@ -156,7 +156,7 @@ https://af2571c507cfa1204.app.workbuddy.host/Jiadang-v1.0.apk?sharecode=S3K5X2JB
 
 ---
 
-## 六、源码结构
+## 📂 源码结构
 
 ```
 jiadang/
@@ -198,7 +198,8 @@ bash build.sh          # 编译签名，输出到 ../家当-v1.0.apk
 
 ---
 
-## 七、来源与创作方式声明
+<details>
+<summary>📜 来源与创作方式声明（点开查看完整说明）</summary>
 
 为避免任何误解，这里完整说明本软件是怎么来的：
 
@@ -223,9 +224,11 @@ bash build.sh          # 编译签名，输出到 ../家当-v1.0.apk
 7. **名称**：桌面显示名「家当」由作者确认；应用标识、虚拟域、
    存储键、缓存名等内部标识同步统一，无旧品牌残留。
 
+</details>
+
 ---
 
-## 八、版权与侵权声明
+## ⚖️ 版权与侵权声明
 
 - **原创部分**以 [MIT](LICENSE) 开源，可自由使用、修改与分发，需保留版权与许可声明。
 - **第三方资产**仅有两款 OFL 1.1 字体，授权与遵守情况见 [NOTICE.md](NOTICE.md)
@@ -242,7 +245,7 @@ bash build.sh          # 编译签名，输出到 ../家当-v1.0.apk
 
 ---
 
-## 九、版本
+## 🏷️ 版本
 
 **v1.0（2026-11-26）** — 首个公开版本：5 页签、16 大类物品、车辆养护与油耗、
 到期提醒、账目与统计、CSV/Excel/JSON 导出导入、4 套主题、现代手机安全区适配、
@@ -250,7 +253,7 @@ bash build.sh          # 编译签名，输出到 ../家当-v1.0.apk
 
 ---
 
-## 相关文档
+## 📚 相关文档
 
 - [LICENSE](LICENSE) — MIT 许可证
 - [NOTICE.md](NOTICE.md) — 第三方资产与权利声明
