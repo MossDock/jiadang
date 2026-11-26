@@ -2,6 +2,10 @@
   <img src="screenshots/00-banner.png" alt="家当 · 家庭物品与账目" width="100%">
 </p>
 
+<p align="center">
+  <strong>简体中文</strong> | <a href="README.en.md">English</a>
+</p>
+
 <h1 align="center">家当 · 家庭物品与账目</h1>
 
 <p align="center">
@@ -161,6 +165,7 @@ https://af2571c507cfa1204.app.workbuddy.host/Jiadang-v1.0.apk?sharecode=S3K5X2JB
 ```
 jiadang/
 ├── README.md                 本文档
+├── README.en.md              英文版文档
 ├── LICENSE                   MIT 许可证（原创部分）
 ├── NOTICE.md                 第三方资产与权利声明
 ├── licenses/                 字体 OFL 1.1 许可证全文
@@ -257,3 +262,4 @@ bash build.sh          # 编译签名，输出到 ../家当-v1.0.apk
 
 - [LICENSE](LICENSE) — MIT 许可证
 - [NOTICE.md](NOTICE.md) — 第三方资产与权利声明
+
