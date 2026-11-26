@@ -5,6 +5,14 @@
 <h1 align="center">家当 · 家庭物品与账目</h1>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/version-v1.0-2f6f4f" alt="版本">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="许可证">
+  <img src="https://img.shields.io/badge/Android-7.0%2B-3ddc84" alt="系统要求">
+  <img src="https://img.shields.io/badge/APK-~207KB-orange" alt="安装包体积">
+  <img src="https://img.shields.io/badge/network-zero-blue" alt="零网络请求">
+</p>
+
+<p align="center">
   把家里的东西、花费和到期日，安静地记在手机里。<br>
   <strong>完全离线 · 无需登录 · 数据只存本机</strong> 的 Android 应用。
 </p>
