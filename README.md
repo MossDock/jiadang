@@ -105,15 +105,14 @@ CSS 变量 --sa-top / --sa-bottom / --sa-left / --sa-right
 
 ---
 
-## 四、安装方式（多种）
+## 四、安装方式
 
 | # | 方式 | 怎么用 |
 |---|---|---|
-| ① | **解压本压缩包（推荐）** | 解压 `家当-v1.0.zip`，点根目录的 `家当-v1.0.apk` 安装 |
-| ② | 手机浏览器直链 / 扫码 | 在手机浏览器打开下方链接，或扫 `screenshots/09-download-qr.png` |
-| ③ | 附件卡片 / 系统分享 / 剪贴板 | 通过文件卡片、设备分享面板保存，或复制直链到手机浏览器打开 |
+| ① | **GitHub Releases（推荐）** | 到 [Releases 页面](https://github.com/MossDock/jiadang/releases) 下载 `Jiadang-v1.0.apk` 安装 |
+| ② | 手机浏览器直链 / 扫码（备用） | 在手机浏览器打开下方链接，或扫 `screenshots/09-download-qr.png` |
 
-**直链**（`?sharecode=...` 是访问凭据，必须整条保留）：
+**备用直链**（第三方临时托管，`?sharecode=...` 是访问凭据，必须整条保留）：
 
 ```
 https://af2571c507cfa1204.app.workbuddy.host/Jiadang-v1.0.apk?sharecode=S3K5X2JBYF
@@ -148,8 +147,7 @@ https://af2571c507cfa1204.app.workbuddy.host/Jiadang-v1.0.apk?sharecode=S3K5X2JB
 ## 六、源码结构
 
 ```
-家当-v1.0/
-├── 家当-v1.0.apk             Android 安装包（可直接安装）
+jiadang/
 ├── README.md                 本文档
 ├── LICENSE                   MIT 许可证（原创部分）
 ├── NOTICE.md                 第三方资产与权利声明
@@ -169,6 +167,9 @@ https://af2571c507cfa1204.app.workbuddy.host/Jiadang-v1.0.apk?sharecode=S3K5X2JB
 │       └── icons.py  prepare.py  build.sh
 └── screenshots/              全部配图（README 引用）
 ```
+
+安装包 `Jiadang-v1.0.apk` 不随源码入库，发布在仓库的
+[Releases 页面](https://github.com/MossDock/jiadang/releases)。
 
 ### 本地复现构建
 
@@ -190,7 +191,7 @@ bash build.sh          # 编译签名，输出到 ../家当-v1.0.apk
 
 为避免任何误解，这里完整说明本软件是怎么来的：
 
-1. **需求来源**：功能范围来自使用者提供的《家庭物品与账目台账-需求文档.md》——
+1. **需求来源**：功能范围来自作者提供的《家庭物品与账目台账-需求文档.md》——
    5 个底部页签、16 大类物品、账目、提醒、统计、导出、离线与本机存储等要求。
    该文档仅作为功能需求清单使用，未复制其版式或任何第三方素材。
 2. **创作方式**：全部代码（Android 原生 Java、Web 前端原生 JavaScript / HTML / CSS）、
@@ -208,7 +209,7 @@ bash build.sh          # 编译签名，输出到 ../家当-v1.0.apk
 6. **示例数据**：全部为虚构占位，已移除丰田、海尔、优衣库、戴森、欧姆龙、
    人保财险、平安财险等真实商标，以及近似真实车牌与联系方式，
    改用「示例品牌 / 示例车 / 示例车牌 / 示例联系人」等通用文本。
-7. **名称**：桌面显示名「家当」由使用者在会话中确认；应用标识、虚拟域、
+7. **名称**：桌面显示名「家当」由作者确认；应用标识、虚拟域、
    存储键、缓存名等内部标识同步统一，无旧品牌残留。
 
 ---

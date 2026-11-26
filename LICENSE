@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Jiadang Project (个人非商业开源作品)
+Copyright (c) 2026 MossDock
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,15 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-说明（中文，非许可证正文的一部分）：
-
-1. 本 MIT 许可证仅覆盖本项目原创的代码、界面、图标与文档。
-   第三方资产（字体）适用其各自的 SIL Open Font License 1.1，
-   详见 NOTICE.md 与 licenses/ 目录。
-2. 版权人一栏为占位写法，上传 GitHub 时可替换为你的姓名或组织名。
-3. 本许可证不授予任何第三方商标、商号或应用名称的使用权；
-   名称与商标相关风险见《版权合规分析.md》第四节。
-4. 签名密钥（app.keystore）不属于本仓库内容，也未随本许可证分发。
